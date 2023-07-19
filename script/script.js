@@ -1,4 +1,4 @@
-function hitung(){
+function hitung(bmi){
 
     var berat = parseInt(urlParams.get("berat"));
     var tinggi = parseInt(urlParams.get("tinggi"));
