@@ -1,5 +1,5 @@
 function hitung(bmi){
-
+    var urlParams = new URLSearchParams(window.location.search);
     var berat = parseInt(urlParams.get("berat"));
     var tinggi = parseInt(urlParams.get("tinggi"));
 
