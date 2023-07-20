@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded",function(event){
         document.getElementById("kondisi").innerHTML = "kelebihan Berat Badan";
         document.getElementById("comment").innerHTML = "Anda memiliki berat badan Berlebih";
         document.getElementById("interpretasi").innerHTML = "Hasil BMI diantara 25.0 hingga 29.9";
-        document.getElementById("kategori").innerHTML = "Anda berada dalam kategori Overweight atau kelebihan berat badan.";
+        document.getElementById("kategori").innerHTML = "Anda berada dalam kategori Overweight atau kelebihan berat badan."
     } else if(bmi > 24.9){
         document.getElementById("kondisi").innerHTML = "Normal (Ideal)";
         document.getElementById("comment").innerHTML = "Anda memiliki Berat badan Yang Ideal";
@@ -35,4 +35,4 @@ document.addEventListener("DOMContentLoaded",function(event){
         document.getElementsById("interpretasi").innerHTML = "Hasil BMI Kurang dari 18.5";
         document.getElementById("kategori").innerHTML = "Anda berada dalam kategori kategori kekurangan berat badan.";
     }
-}
+})
